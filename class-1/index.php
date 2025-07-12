@@ -73,9 +73,45 @@
 
         $fruits = ["Mango", "Banana", 27];
 
-        echo $fruits[1]; //use index for print any value;
+        echo "$fruits[1]</br>"; //use index for print any value;
 
-        $user = new User(); // here $user is an object and User is a class 
+        //$user = new User(); // here $user is an object and User is a class 
+
+
+        // special types
+        $variable = NULL;
+
+        // resource types
+        //$file = fopen('test.txt', 'r');
+
+
+        //operators
+
+            //Arithmatic Operator
+
+            $a = 10;
+            $b = 10;
+            $addition =  $a + $b;
+            $subtraction =  $a - $b;
+            $multiplication =  $a * $b;
+            $divition =  $a / $b;
+            $modulus =  $a % $b;
+            $exponenciation = $a ** $b;
+
+
+
+            echo "$addition</br>";
+            echo "$subtraction</br>";
+            echo "$multiplication</br>";
+            echo "$divition</br>";
+            echo "$modulus</br>";
+            echo "$exponenciation</br>";
+
+
+
+
+
+
 
     ?>
 </body>
