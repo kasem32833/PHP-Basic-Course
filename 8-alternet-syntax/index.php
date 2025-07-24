@@ -28,11 +28,16 @@
 
     <!-- create dynamically list or menu -->
 
-    <ul>
-        <li>Apple</li>
-        <li>Banana</li>
-        <li>Orange</li>
-        <li>Pineapple</li>
-    </ul>
+
+
+    <?php 
+        $fruits = ["Apple", "Banana", "Orange", "Kuwi", "Pomegrante"]; ?>
+
+        <ul>
+           <?php  foreach($fruits as $fruit): ?>
+            <li><?php echo $fruit ?></li>
+            <?php endforeach ; ?>
+        </ul>
+   
 </body>
 </html>
